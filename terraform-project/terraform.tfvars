@@ -1,0 +1,5 @@
+resource_group_name = ""
+location            = ""
+sql_admin_username  = ""
+sql_admin_password  = ""
+storage_account_name = ""

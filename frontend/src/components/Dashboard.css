@@ -1,0 +1,101 @@
+.dashboard-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  position: relative;
+  padding-top: 40px;
+  width: 100%;
+}
+
+.dashboard-title {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.logout-button {
+  position: absolute;
+  right: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 10px 0;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.navbar button {
+  margin: 0 15px;
+  background: none;
+  border: none;
+  color: #007bff;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.navbar button.active {
+  font-weight: bold;
+  color: #0056b3;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.dashboard-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.note-form {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.note-form input,
+.note-form textarea {
+  width: 100%;
+  font-size: 1.2em;
+  padding: 10px; 
+  box-sizing: border-box; 
+}
+
+.note-list {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+.note-list h2 {
+  text-align: center;
+}
+
+.data-analysis,
+.export-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  margin-top: 20px;
+  text-align: center; 
+}
+
+.media-upload,
+.media-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
